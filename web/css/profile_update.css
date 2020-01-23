@@ -1,0 +1,206 @@
+ #profile{
+	background-color:#f1f2fd;
+        color:black;
+    
+	margin-left: auto;
+	margin-right: auto;
+	width: 1080px;
+	text-align: left;
+	height: 630px;
+	
+	border: 1px solid #dbddf9;
+	
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	border-top-right-radius:0px;
+	border-top-left-radius:0px;
+	box-shadow: 0px 1px 3px #666666;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+}
+
+.validicons, .validiconscontact{
+	display:none;
+	position:relative;
+	left:4px;	
+	background-size: 16px 16px;
+}
+
+
+#menu {	
+	top:8px;
+}
+#path  {	
+	position:relative;
+	top:15px;
+	left:10px;
+	display:block;
+}
+
+#path a{
+	color: blue;	
+}
+
+#personal, #contact, #passworddiv{	
+	position:relative;
+	display:inline-block;	
+	top:50px;	
+	left:100px;
+	background-color:white;
+	border: 1px solid #dbddf9;	
+	-webkit-border-radius: 0px; 
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	box-shadow: 0px 1px 3px #666666;
+}
+
+#contact{
+	left:160px;
+}	
+
+
+#personalform, #contactform, #passwordform{
+	display:inline-block;
+	width:400px;
+	height:230px;
+	
+}
+
+#cancelchanges{
+	color : orange;
+	font-size:14px;
+	position:absolute;
+        padding-top: 26px;
+	float:left;
+	display:none;
+}
+
+#updatechanges{
+	color : orange;
+	font-size:14px;
+	position:absolute;
+        padding-top: 6px;
+	float:left;
+	display:none;
+}
+
+
+#changes, #changescontact{
+	color:orange;
+	position:relative;
+        font-size:14px;
+	left:625px;	
+	top:23px;
+	display:inline;	
+}
+
+#submitchanges, #submitchangescontact{
+	
+	position:relative;
+        float:right;
+	display:none;
+}
+
+.editbuttons{
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px;	
+	border-radius: 15px; 
+	background:none;
+	border:0px;
+	top: -27px;
+        float:right;
+	position:relative;
+	display:none;
+	
+	
+	
+}
+.editbuttons:hover{
+	cursor:pointer;
+}
+
+.headings{	
+	text-decoration: underline;	
+	display:inline;
+	position:relative;
+	left:120px;
+}
+
+.fieldnames{	
+	padding:7px;
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	width:150px;
+	border:0px;
+}
+
+.fieldvalues{
+	position:relative;	
+	left:10px;
+	border:0px;	
+	width:130px;
+}
+
+
+.passwordnames{
+	padding:7px;
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	width:200px;
+	border:0px;	
+}
+
+.edit{
+	-moz-border-radius:0px; 
+	-webkit-border-radius:0px;	
+	border-radius: 0px;
+	background-color:#ABF2FD;
+	border:0px; 
+	border-color: gray; 
+	padding-left:10px;	
+}
+
+#StrengthText{
+	position:relative;	
+	bottom:153px;
+	left:404px;
+	display:inline;
+}
+#OldValidText{
+	position:relative;	
+	bottom:128px;	
+	display:inline;
+}
+#ConfirmText{
+	position:relative;	
+	bottom:143px;
+	left:405px;
+	display:inline;
+}
+
+
+#bottom-menu  {
+	color:orange;
+	position:relative;
+	top:160px;
+	left:110px;
+}
+
+
+
+
+#bottom-menu a{
+	color: orange;
+}
+
+
+
+
+
+
+
